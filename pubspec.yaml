@@ -1,0 +1,61 @@
+name: unplan
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+  google_fonts: ^1.1.1
+  stacked: ^1.7.6
+  auto_route: ^0.6.9
+  get_it: ^5.0.3
+  injectable: ^1.0.5
+  stacked_services: ^0.6.0+1
+  shared_preferences: ^0.5.12+4
+  http: ^0.12.2
+  geolocator: ^6.1.13
+  geocoding: ^1.0.5
+  device_info: ^1.0.0
+  flutter_svg: ^0.19.2+1
+  another_flushbar: ^1.10.8
+  flutter_local_notifications: ^3.0.3
+  intl: ^0.16.1
+  url_launcher: ^5.7.10
+  date_time_picker: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.2
+  auto_route_generator: ^0.6.9
+  injectable_generator: ^1.0.4
+
+  integration_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: TextStyles
+      fonts:
+        - asset: fonts/mulish_regular.ttf
+          weight: 400
+        - asset: fonts/mulish_semi_bold.ttf
+          weight: 600
+        - asset: fonts/mulish_bold.ttf
+          weight: 700
+        - asset: fonts/mulish_semi_bold.ttf
+
+  uses-material-design: true
+
+  assets:
+    - assets/svg/
+    - fonts/
+    - assets/
